@@ -29,6 +29,7 @@ class TestRegEx:
 
     def test_finds_all_matches(self):
         '''can be used to find these three strings and ONLY these three strings.'''
+        print(my_regex.findall(FINDALL_STRING))
         assert(my_regex.findall(FINDALL_STRING) == [
             "It's such a lovely day today.",
             "Some weather we're having today, huh?",
